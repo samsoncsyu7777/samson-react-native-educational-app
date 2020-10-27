@@ -17,4 +17,11 @@ At Paper we do not use *Expo*, but for simplicity, it is used in this assessment
 4. How well the guidelines provided were followed
 
 # Assessment: Trivia App 
-Your goal is to create a very basic Pokedex. We will use the data provided by https://pokeapi.co.
+Your goal is to create a very basic trivia app. We will be using data from [Open Trivia Database](https://opentdb.com/api_config.php)
+
+When consulting the API, make sure to follow these guidelines when generating the API endpoint we want to call
+- Number of questions : 10
+- Any category
+- Any difficulty
+- Any Type
+- Default Encoding
