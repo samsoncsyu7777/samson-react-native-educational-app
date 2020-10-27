@@ -43,7 +43,7 @@ When consulting the API, make sure to follow these guidelines when generating th
 
 ### Question Screen
 - It displays the ***question and the choices***. The question can either have ***4 multiple choices*** or be a ***true/false*** question
-- When clicking on a choice, the box should ***change background color***. If its `correct = green`, `incorrect = red`. When selecting a new box, the ***other boxes' background color should return to the default color (white)***
+- When clicking on a choice, the box should ***change background color***. If its `correct = Green`, `incorrect = Orange`. When selecting a new box, the ***other boxes' background color should return to the default color (white)***
 
 ### Color Codes
 Use these codes for the colors displayed on the mockup
