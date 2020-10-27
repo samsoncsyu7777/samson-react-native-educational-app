@@ -7,7 +7,7 @@
 
 ## Dev Environment
 
-At Paper we do not use *Expo*, but for simplicity, it is used in this assessment
+At PAPER we do not use *Expo*, but for simplicity, it is used in this assessment
 
 ## Evaluation Criteria
 
