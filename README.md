@@ -16,6 +16,5 @@ At Paper we do not use *Expo*, but for simplicity, it is used in this assessment
 3. How you use React features
 4. How well the guidelines provided were followed
 
-# Assessment: Pokedex 
-
-Your goal is to create a very basic Pokedex. We will use the data provided by https://pokeapi.co. 
+# Assessment: Trivia App 
+Your goal is to create a very basic Pokedex. We will use the data provided by https://pokeapi.co.
