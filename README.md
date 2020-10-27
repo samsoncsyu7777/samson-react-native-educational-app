@@ -43,7 +43,6 @@ When consulting the API, make sure to follow these guidelines when generating th
 
 ### Question Screen
 - It displays the ***question and the choices***. The question can either have ***4 multiple choices*** or be a ***true/false*** question
-***box size remains the same***, in other words, the third choice should not fill the 2 boxes
 - When clicking on a choice, the box should ***change background color***. If its `correct = green`, `incorrect = red`. When selecting a new box, the ***other boxes' background color should return to the default color (white)***
 
 ### Color Codes
