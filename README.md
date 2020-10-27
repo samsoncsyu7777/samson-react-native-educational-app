@@ -7,7 +7,7 @@
 
 ## Dev Environment
 
-At Paper we do not use *Expo*, but for simplicity, it is used in this assessment
+At PAPER we do not use *Expo*, but for simplicity, it is used in this assessment
 
 ## Evaluation Criteria
 
@@ -34,24 +34,24 @@ When consulting the API, make sure to follow these guidelines when generating th
 
 ## Webapp Instructions
 
-### Home Screen
-- When loading the app, the user should first be redirected to the `home screen`
-- With the response that you receive from the API, you are to create a `scrollable list` of all the questions.
-- The questions are divided based on their difficulty: `easy, medium & hard`
-- The question box displays the `category` of the question
-- When clicking a box, it should `redirect the user to the question screen`
+### List Screen
+- When loading the app, the user should be redirected to the ***list screen***
+- With the response that you receive from the API, you are to create a ***scrollable list of all the questions***.
+- The questions are divided based on their difficulty: ***easy, medium & hard***
+- The question box displays the ***category*** of the question
+- When clicking a box, it should ***redirect the user to the question screen***
 
 ### Question Screen
-- It displays the `question` and the `choices`. It is possible that the question can have 2, 3 or 4 multiple choices. In the case of an `odd number` of choices, make sure the 
-`box size remains the same`, in other words, the third choice should `not fill the 2 boxes`
-- When clicking on a choice, the box should `change background color`. If its correct = green, incorrect = red. When selecting a new box, the `other boxes' background color should return to the default color (white)`
+- It displays the ***question and the choices***. It is possible that the question can have 2, 3 or 4 multiple choices. In the case of an ***odd number*** of choices, make sure the 
+***box size remains the same***, in other words, the third choice should not fill the 2 boxes
+- When clicking on a choice, the box should ***change background color***. If its `correct = green`, `incorrect = red`. When selecting a new box, the ***other boxes' background color should return to the default color (white)***
 
-### Color Cods
+### Color Codes
 Use these codes for the colors displayed on the mockup
-- Blue: #0e0fe0
-- Green: #009D40
-- Orange : #FF570D
-- Grey: #f4f3f1
+- Blue: `#0e0fe0`
+- Green: `#009D40`
+- Orange : `#FF570D`
+- Grey: `#f4f3f1`
 
 ### Packages 
 You will use the following packages to fullfill the requiremets
