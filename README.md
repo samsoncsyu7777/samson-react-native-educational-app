@@ -61,7 +61,7 @@ You will use the following packages to fullfill the requiremets
 ***These packages are already added to the `lock` and `package.json` files***
 
 # Mockups
-## There is a live video demo of the app located in the `public` folder! Make sure to take a look at that to understand the exact behavior!
+## There is a live video demo of the app located in the `public` folder! Make sure to take a look to understand the exact behavior!
 ![alt text](./public/mock-home-default.PNG)
 ![alt text](./public/mock-home-scroll.PNG)
 ![alt text](./public/mock-default-question.PNG)
