@@ -42,7 +42,7 @@ When consulting the API, make sure to follow these guidelines when generating th
 - When clicking a box, it should ***redirect the user to the question screen***
 
 ### Question Screen
-- It displays the ***question and the choices***. It is possible that the question can have 2, 3 or 4 multiple choices. In the case of an ***odd number*** of choices, make sure the 
+- It displays the ***question and the choices***. The question can either have ***4 multiple choices*** or be a ***true/false*** question
 ***box size remains the same***, in other words, the third choice should not fill the 2 boxes
 - When clicking on a choice, the box should ***change background color***. If its `correct = green`, `incorrect = red`. When selecting a new box, the ***other boxes' background color should return to the default color (white)***
 
