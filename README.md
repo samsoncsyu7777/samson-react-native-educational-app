@@ -34,8 +34,8 @@ When consulting the API, make sure to follow these guidelines when generating th
 
 ## Webapp Instructions
 
-### List Screen
-- When loading the app, the user should be redirected to the `list screen`
+### Home Screen
+- When loading the app, the user should first be redirected to the `home screen`
 - With the response that you receive from the API, you are to create a `scrollable list` of all the questions.
 - The questions are divided based on their difficulty: `easy, medium & hard`
 - The question box displays the `category` of the question
