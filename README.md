@@ -1,7 +1,6 @@
 # Paper React Native Test
 ## Guidelines
 - The specifications of the problem are listed below. Please read **all instructions carefully**
-- You are free to use **any packages or libraries**. 
 - You can create as many files as you like. 
 - All implementation code should be in the `src` folder
 - Do not worry about getting the exact dimesions and spacing. Just try to get it as close to the mockups as possible.
