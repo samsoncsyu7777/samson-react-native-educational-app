@@ -57,7 +57,7 @@ You will use the following packages to fullfill the requiremets
 - [Axios](https://github.com/axios/axios) for making API calls
 - [React Navigation](https://reactnavigation.org/docs/navigating) to move between screens
 
-***These packages are already added to the `lock` and `package.json` files***
+***These packages are already added to the `lock` and `package.json` files*** on the `main` branch
 
 # Mockups
 ## There is a live video demo of the app located in the `public` folder! Make sure to take a look to understand the exact behavior!
