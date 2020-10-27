@@ -1,9 +1,10 @@
 # Paper React Native Test
-
-- The specifications of the problem are listed below. 
+## Guidelines
+- The specifications of the problem are listed below. Please read **all instructions carefully**
 - You are free to use **any packages or libraries**. 
 - You can create as many files as you like. 
-- All related implementation code should be in the `src` folder
+- All implementation code should be in the `src` folder
+- Do not worry about getting the exact dimesions and spacing. Just try to get it as close to the mockups as possible.
 
 ## Dev Environment
 
@@ -13,8 +14,12 @@ At Paper we do not use *Expo*, but for simplicity, it is used in this assessment
 
 1. Code readability and organization
 2. Problem solving skills
-3. How you use React features
+3. Understanding of React concepts
 4. How well the guidelines provided were followed
+
+## Submission Instructions
+- Branch off `main` and create a branch with this notation `${firstname}-${lastname}`
+- When you are done, create a `pull request` 
 
 # Assessment: Trivia App 
 
@@ -29,19 +34,35 @@ When consulting the API, make sure to follow these guidelines when generating th
 - Default Encoding
 
 ## Webapp Instructions
+
 ### List Screen
+- When loading the app, the user should be redirected to the `list screen`
 - With the response that you receive from the API, you are to create a `scrollable list` of all the questions.
 - The questions are divided based on their difficulty: `easy, medium & hard`
-- The box displays the `category` of the question
-- When clicking a box, it should `redirect the user to a new screen`
+- The question box displays the `category` of the question
+- When clicking a box, it should `redirect the user to the question screen`
+
 ### Question Screen
-- In that new screen, it displays the `question` and the `choices`. It is possible that the question can have 2, 3 or 4 multiple choices. In the case of an `odd number` of choices, make sure the 
-`box size remains the same`, in other words, the third choice should `not fill the width of 2 boxes`
-- That new screen will `display the question along with the choices`
-- When clicking on a choice, the box should `change color`
+- It displays the `question` and the `choices`. It is possible that the question can have 2, 3 or 4 multiple choices. In the case of an `odd number` of choices, make sure the 
+`box size remains the same`, in other words, the third choice should `not fill the 2 boxes`
+- When clicking on a choice, the box should `change background color`. If its correct = green, incorrect = red. When selecting a new box, the `other boxes' background color should return to the default color (white)`
+
+### Color Cods
+Use these codes for the colors displayed on the mockup
+- Blue: #0e0fe0
+- Green: #009D40
+- Orange : #FF570D
+- Grey: #f4f3f1
+
+### Packages 
+You will use the following packages to fullfill the requiremets
+- [Axios](https://github.com/axios/axios) for making API calls
+- [React Navigation](https://reactnavigation.org/docs/navigating) to move between screens
+
+***These packages are already added to the `lock` and `package.json` files***
 
 # Mockups
-## There is a live video demo of the app located in the `public` folder so make sure to take a look at that to understand the exact behavior
+## There is a live video demo of the app located in the `public` folder! Make sure to take a look at that to understand the exact behavior!
 ![alt text](./public/mock-home-default.PNG)
 ![alt text](./public/mock-home-scroll.PNG)
 ![alt text](./public/mock-default-question.PNG)
@@ -49,16 +70,4 @@ When consulting the API, make sure to follow these guidelines when generating th
 ![alt text](./public/mock-good-answer.PNG)
 
 # Important Notes
-
-## Colors
-Use these codes for the colors displayed on the mockup
-- Blue: #0e0fe0
-- Green: #009D40
-- Orange : #FF570D
-- Grey: #f4f3f1
-
-## Dimensions
-Do not worry about getting the exact dimesions and spacing. Just try to get it as close to the mockups as possible.
-
-## Maintanibility
-If I were to change my input in the API, eg. I choose only multiple choice questions OR I choose 30 questions, your app should still behave the same
+*If I were to change my input in the API, eg. I choose only multiple choice questions OR I choose 30 questions, your app should still behave the same and not crash*
