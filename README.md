@@ -35,11 +35,11 @@ When consulting the API, make sure to follow these guidelines when generating th
 ## Webapp Instructions
 
 ### List Screen
-- When loading the app, the user should be redirected to the `list screen`
-- With the response that you receive from the API, you are to create a `scrollable list` of all the questions.
-- The questions are divided based on their difficulty: `easy, medium & hard`
-- The question box displays the `category` of the question
-- When clicking a box, it should `redirect the user to the question screen`
+- When loading the app, the user should be redirected to the **list screen**
+- With the response that you receive from the API, you are to create a **scrollable list** of all the questions.
+- The questions are divided based on their difficulty: **easy, medium & hard**
+- The question box displays the **category** of the question
+- When clicking a box, it should **redirect the user to the question screen**
 
 ### Question Screen
 - It displays the `question` and the `choices`. It is possible that the question can have 2, 3 or 4 multiple choices. In the case of an `odd number` of choices, make sure the 
