@@ -32,7 +32,7 @@ When consulting the API, make sure to follow these guidelines when generating th
 - Any Type
 - Default Encoding
 
-## Webapp Instructions
+## Mobile App Instructions
 
 ### List Screen
 - When loading the app, the user should be redirected to the ***list screen***
