@@ -17,9 +17,8 @@ At PAPER we do not use *Expo*, but for simplicity, it is used in this assessment
 4. How well the guidelines provided were followed
 
 ## Submission Instructions
-- Fork this project 
-- Create a branch off main, for this test, call it `${firstName}-${lastName}`
-- Make a pull request in your forked repo back to main
+- Branch off `main` and create a branch with this notation `${firstname}-${lastname}`
+- When you are done, create a `pull request` 
 
 # Assessment: Trivia App 
 
