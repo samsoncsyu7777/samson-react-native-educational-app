@@ -15,7 +15,7 @@ import Question from "./Question";
 import CustomColors from "../CustomColors";
 import axios from 'axios';
 
-export default class PaperTrivia extends React.Component {
+export default class SamsonAcademic extends React.Component {
   constructor(props) {
     super(props);
 
@@ -32,7 +32,7 @@ export default class PaperTrivia extends React.Component {
     await this.setState({ loading: true });
     let questions = [];
     try {
-      questions = await axios.get('https://opentdb.com/api.php?amount=10')
+      questions = await axios.get('https://opentdb.com/api.php?amount=15')
     } catch(err) {
       console.log(err);
     }
@@ -69,7 +69,7 @@ export default class PaperTrivia extends React.Component {
             </View>
           )}
 
-          <Text style={styles.text}>Easy Questions</Text>
+          <Text style={styles.text}>Level I Questions</Text>
 
           <View style={styles.boxes}>
             {
@@ -87,7 +87,7 @@ export default class PaperTrivia extends React.Component {
             }
           </View>
 
-          <Text style={styles.text}>Medium Questions</Text>
+          <Text style={styles.text}>Level II Questions</Text>
 
           <View style={styles.boxes}>
             {
@@ -105,7 +105,7 @@ export default class PaperTrivia extends React.Component {
             }
           </View>
 
-          <Text style={styles.text}>Hard Questions</Text>
+          <Text style={styles.text}>Level III Questions</Text>
 
           <View style={styles.boxes}>
             {
@@ -156,15 +156,15 @@ const styles = StyleSheet.create({
   },
 
   easy: {
-    borderColor: CustomColors.green
+    borderColor: CustomColors.orange
   },
 
   medium: {
-    borderColor: CustomColors.blue
+    borderColor: CustomColors.green
   },
 
   hard: {
-    borderColor: CustomColors.orange
+    borderColor: CustomColors.blue
   },
 
   boxText: {

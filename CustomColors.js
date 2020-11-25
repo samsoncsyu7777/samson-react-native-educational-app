@@ -1,8 +1,9 @@
 const CustomColors = {
-  blue: "#0e0fe0",
-  green: "#009D40",
-  orange: "#FF570D",
-  grey: "#f4f3f1"
+  blue: "#2040f0",
+  green: "#10ed50",
+  orange: "#f5872d",
+  yellow: "#e8ffa0",
+  grey: "#f2f2f2"
 };
 
 export default CustomColors;

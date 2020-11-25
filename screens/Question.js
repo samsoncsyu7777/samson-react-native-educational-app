@@ -21,15 +21,15 @@ export default function Question(props) {
       const ri = Math.floor(Math.random() * (i + 1));
       [answers[i], answers[ri]] = [answers[ri], answers[i]];
     }
-    setColors(["#ffffff", "#ffffff", "#ffffff", "#ffffff"]);
+    setColors([CustomColors.yellow, CustomColors.yellow, CustomColors.yellow, CustomColors.yellow]);
   }, []);
 
   const onPress = (e, index) => {
     console.log(index);
-    let tmp = ["#ffffff", "#ffffff", "#ffffff", "#ffffff"];
+    let tmp = [CustomColors.yellow, CustomColors.yellow, CustomColors.yellow, CustomColors.yellow];
 
     if (answers[index] === question.correct_answer) {
-      tmp[index] = CustomColors.green.toLowerCase();
+      tmp[index] = CustomColors.blue.toLowerCase();
       setColors(tmp);
     } else {
       tmp[index] = CustomColors.orange.toLowerCase();
@@ -92,7 +92,7 @@ const styles = StyleSheet.create({
     width: wp2dp('85%'),
     justifyContent: "center",
     borderWidth: 2,
-    borderColor: "#fff",
+    borderColor: CustomColors.green,
     borderRadius: hp2dp('3%'),
     backgroundColor: "#fff",
     margin: hp2dp('3%'),
@@ -100,7 +100,7 @@ const styles = StyleSheet.create({
 
   question: {
     fontSize: hp2dp('3.5%'),
-    color: CustomColors.blue,
+    color: CustomColors.green,
     padding: hp2dp('5%'),
     textAlign: "center",
   },
